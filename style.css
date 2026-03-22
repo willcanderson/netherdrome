@@ -154,6 +154,28 @@ h2 {
   font-size: 0.95rem;
 }
 
+.episode-card {
+  padding: 1.25rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.episode-card:first-of-type {
+  border-top: 1px solid var(--border);
+}
+
+.episode-card h3 {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.episode-card p {
+  color: var(--text);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
 /* Footer */
 footer {
   border-top: 1px solid var(--border);
