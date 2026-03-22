@@ -160,7 +160,7 @@ main {
 }
 
 section {
-  margin: 3rem 0;
+  margin-bottom: 3rem;
 }
 
 h2 {
@@ -174,6 +174,20 @@ h2 {
 }
 
 /* Platforms */
+.platforms {
+  position: sticky;
+  top: 0;
+  background: var(--surface);
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+  padding: 1rem 1.5rem;
+  z-index: 10;
+}
+
+.platforms h2 {
+  color: #fff;
+}
+
 .platform-links {
   list-style: none;
   display: flex;
@@ -184,12 +198,12 @@ h2 {
 .platform-links li a {
   display: inline-block;
   padding: 0.45rem 1rem;
-  background: var(--surface-light);
-  border: 1px solid var(--border-light);
+  background: var(--border);
+  border: 1px solid #3a3a45;
   border-radius: 6px;
   font-size: 0.9rem;
-  color: var(--text);
-  transition: border-color 0.15s;
+  color: #e0e0e8;
+  transition: border-color 0.15s, color 0.15s;
 }
 
 .platform-links li a:hover {
