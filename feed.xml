@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:atom="http://www.w3.org/2005/Atom">
+
+  <channel>
+    <title>Netherdrome</title>
+    <link>https://willcanderson.github.io/netherdrome/</link>
+    <atom:link href="https://willcanderson.github.io/netherdrome/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Dispatches from the edge of technology, culture, and ideas.</description>
+    <language>en-us</language>
+    <copyright>&#169; 2026 Netherdrome</copyright>
+    <lastBuildDate>Sun, 22 Mar 2026 00:00:00 +0000</lastBuildDate>
+
+    <itunes:author>Netherdrome</itunes:author>
+    <itunes:summary>Dispatches from the edge of technology, culture, and ideas.</itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:category text="Technology" />
+    <itunes:owner>
+      <itunes:name>Netherdrome</itunes:name>
+    </itunes:owner>
+
+    <!-- Episodes will be added here as <item> elements -->
+
+  </channel>
+</rss>
