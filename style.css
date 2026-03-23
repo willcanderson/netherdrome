@@ -20,8 +20,9 @@
 
 body {
   background-image:
-    radial-gradient(circle at 50% 30em, transparent 10%, #d6d6d6 70%),
-    repeating-conic-gradient(at 50% 30em, #D8D8D8, #efefef 3deg);
+  radial-gradient(circle at 50% 30em, transparent 10%, #fff 70%),
+  repeating-conic-gradient(at 50% 30em, #fff, #efefef 3deg);
+
   color: var(--text);
   font-family: var(--font);
   font-size: 1rem;
@@ -86,6 +87,7 @@ header {
   max-width: 100%;
   object-fit: cover;
   border-radius: 16px;
+  border: 1px solid var(--border);
   margin-bottom: 1.25rem;
   display: block;
   margin-left: auto;
