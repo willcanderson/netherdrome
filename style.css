@@ -67,7 +67,7 @@ a:hover {
 
 .intro-hook {
   font-family: var(--font-heading);
-  font-size: 3rem;
+  font-size: clamp(2rem, 0.75rem + 4vw, 3rem);
   font-weight: 700;
   color: var(--text);
   line-height: 1.3;
