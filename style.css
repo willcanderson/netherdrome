@@ -10,8 +10,8 @@
   --border: #2a2a30;
   --text: #08080a;
   --muted: #555560;
-  --accent: #7b61ff;
-  --accent-hover: #9980ff;
+  --accent: #c9a84c;
+  --accent-hover: #e8c96e;
   --font: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
   --font-heading: 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
   --surface-light: #fff;
@@ -92,7 +92,7 @@ header {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 0 0 60px 20px rgba(0, 0, 0, 0.25), 0 0 120px 40px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 0 40px 15px rgba(255, 255, 255, 0.9), 0 0 100px 40px rgba(255, 255, 255, 0.5);
 }
 
 .logo {
@@ -180,20 +180,40 @@ h2 {
   margin-bottom: 1.25rem;
 }
 
-/* Platforms */
+/* Platforms — Art Deco */
 .platforms {
   position: sticky;
   top: 0;
-  background: var(--surface);
+  background: #0c0c0e;
   margin-left: -1.5rem;
   margin-right: -1.5rem;
-  padding: 1rem 1.5rem;
+  padding: 0.9rem 1.5rem;
   z-index: 10;
-  border-radius: 0.5rem;
+  border-radius: 0;
+  border-top: 1px solid var(--accent);
+  border-bottom: 1px solid var(--accent);
+  box-shadow: 0 2px 24px rgba(201, 168, 76, 0.12);
 }
 
 .platforms h2 {
-  color: #fff;
+  color: var(--accent);
+  letter-spacing: 0.35em;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.platforms h2::before,
+.platforms h2::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, transparent, color-mix(in srgb, var(--accent) 53%, transparent));
+}
+
+.platforms h2::after {
+  background: linear-gradient(to left, transparent, color-mix(in srgb, var(--accent) 53%, transparent));
 }
 
 .platform-links {
@@ -205,19 +225,24 @@ h2 {
 
 .platform-links li a {
   display: inline-block;
-  padding: 0.45rem 1rem;
-  background: var(--border);
-  border: 1px solid #3a3a45;
-  border-radius: 6px;
-  font-size: 0.9rem;
-  color: #e0e0e8;
-  transition: border-color 0.15s, color 0.15s;
+  padding: 0.4rem 1rem;
+  background: transparent;
+  border: 1px solid color-mix(in srgb, var(--accent) 40%, transparent);
+  border-radius: 2px;
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
 }
 
 .platform-links li a:hover {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
   border-color: var(--accent);
+  color: var(--accent-hover);
   text-decoration: none;
-  color: var(--accent);
 }
 
 /* Episodes */
