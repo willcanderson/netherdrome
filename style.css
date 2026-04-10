@@ -10,8 +10,8 @@
   --border: #2a2a30;
   --text: #08080a;
   --muted: #555560;
-  --accent: #c9a84c;
-  --accent-hover: #e8c96e;
+  --accent: #e8c96e;
+  --accent-hover: #f5df9e;
   --font: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
   --font-heading: 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
   --surface-light: #fff;
@@ -92,7 +92,11 @@ header {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 0 0 40px 15px rgba(255, 255, 255, 0.9), 0 0 100px 40px rgba(255, 255, 255, 0.5);
+  box-shadow:
+    0 0 60px 10px color-mix(in srgb, var(--accent) 8%, transparent),
+    0 0 150px 40px color-mix(in srgb, var(--accent) 5%, transparent),
+    0 0 300px 100px color-mix(in srgb, var(--accent) 3%, transparent),
+    0 0 500px 200px color-mix(in srgb, var(--accent) 2%, transparent);
 }
 
 .logo {
@@ -192,7 +196,7 @@ h2 {
   border-radius: 0;
   border-top: 1px solid var(--accent);
   border-bottom: 1px solid var(--accent);
-  box-shadow: 0 2px 24px rgba(201, 168, 76, 0.12);
+  box-shadow: 0 2px 24px color-mix(in srgb, var(--accent) 12%, transparent);
 }
 
 .platforms h2 {
