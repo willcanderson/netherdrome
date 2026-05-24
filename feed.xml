@@ -11,7 +11,7 @@
     <description>Dispatches from the edge of technology, culture, and ideas.</description>
     <language>en-us</language>
     <copyright>&#169; 2026 Netherdrome</copyright>
-    <lastBuildDate>Sun, 22 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate>
 
     <itunes:author>Netherdrome</itunes:author>
     <itunes:summary>Dispatches from the edge of technology, culture, and ideas.</itunes:summary>
@@ -21,7 +21,161 @@
       <itunes:name>Netherdrome</itunes:name>
     </itunes:owner>
 
-    <!-- Episodes will be added here as <item> elements -->
+    <item>
+      <title>The Airman &amp; The Saboteur</title>
+      <description>An innocent man discovers that a group of radicals are plotting to sabotage the Netherdrome's air system. The saboteurs are out to kill him, he's wanted for a murder he didn't commit, and he's only got one hour to save the city.</description>
+      <enclosure url="https://archive.org/download/netherdrome/01%20Netherdrome%20-%20The%20Airman%20%26%20The%20Saboteur.mp3" length="40065418" type="audio/mpeg" />
+      <guid isPermaLink="false">https://archive.org/download/netherdrome/01%20Netherdrome%20-%20The%20Airman%20%26%20The%20Saboteur.mp3</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>28:01</itunes:duration>
+      <itunes:episode>1</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Music Hath Charms</title>
+      <description>A Netherdrome security officer investigates why thousands of people, including his girlfriend, suddenly lose their emotional stability at the same time each evening.</description>
+      <enclosure url="https://archive.org/download/netherdrome/02%20Netherdrome%20-%20Music%20Hath%20Charms.mp3" length="41711945" type="audio/mpeg" />
+      <guid isPermaLink="false">https://archive.org/download/netherdrome/02%20Netherdrome%20-%20Music%20Hath%20Charms.mp3</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>27:38</itunes:duration>
+      <itunes:episode>2</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>A Sound Defense</title>
+      <description>A potential weapon that can control people's emotions disappears. Is it in the hands of a foreign power, or of terrorists?</description>
+      <enclosure url="https://archive.org/download/netherdrome/03%20Netherdrome%20-%20A%20Sound%20Defense.mp3" length="43609333" type="audio/mpeg" />
+      <guid isPermaLink="false">https://archive.org/download/netherdrome/03%20Netherdrome%20-%20A%20Sound%20Defense.mp3</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>27:32</itunes:duration>
+      <itunes:episode>3</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Superwheat</title>
+      <description>A brilliant genetic engineer develops a new strain of wheat that thrives in polluted air and poor soil. It should be a boon to all mankind, but is it?</description>
+      <enclosure url="https://archive.org/download/netherdrome/04%20Netherdrome%20-%20Superwheat.mp3" length="38814551" type="audio/mpeg" />
+      <guid isPermaLink="false">https://archive.org/download/netherdrome/04%20Netherdrome%20-%20Superwheat.mp3</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>25:17</itunes:duration>
+      <itunes:episode>4</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>His Mind May Wander</title>
+      <description>A young man's hopes for a career as an astronaut are dashed by a tragic accident, but he learns that when life closes one door, it often opens another.</description>
+      <enclosure url="https://archive.org/download/netherdrome/05%20Netherdrome%20-%20His%20Mind%20May%20Wander.mp3" length="40590748" type="audio/mpeg" />
+      <guid isPermaLink="false">https://archive.org/download/netherdrome/05%20Netherdrome%20-%20His%20Mind%20May%20Wander.mp3</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>26:20</itunes:duration>
+      <itunes:episode>5</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>The Woman In The Window</title>
+      <description>A man falls in love with the image of a woman he's seen in an electronic window and decides to go find her.</description>
+      <enclosure url="https://archive.org/download/netherdrome/06%20Netherdrome%20-%20The%20Woman%20In%20The%20Window.mp3" length="43965963" type="audio/mpeg" />
+      <guid isPermaLink="false">https://archive.org/download/netherdrome/06%20Netherdrome%20-%20The%20Woman%20In%20The%20Window.mp3</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>28:49</itunes:duration>
+      <itunes:episode>6</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Is The Theater Really Death? — Part 1</title>
+      <description>A notorious drug kingpin is gunned down in an interactive three-dimensional theater and Netherdrome Security must discover who killed him before a gang war erupts. There are three suspects, two alibis, one murder weapon, and no way the murder could have been committed.</description>
+      <enclosure url="https://archive.org/download/netherdrome/07%20Netherdrome%20-%20Is%20The%20Theater%20Really%20Death%3F%20Part%201.mp3" length="39536280" type="audio/mpeg" />
+      <guid isPermaLink="false">https://archive.org/download/netherdrome/07%20Netherdrome%20-%20Is%20The%20Theater%20Really%20Death%3F%20Part%201.mp3</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>25:46</itunes:duration>
+      <itunes:episode>7</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Is The Theater Really Death? — Part 2</title>
+      <description>The conclusion of the two part murder mystery.</description>
+      <enclosure url="https://archive.org/download/netherdrome/08%20Netherdrome%20-%20Is%20The%20Theater%20Really%20Death%3F%20Part%202.mp3" length="37445955" type="audio/mpeg" />
+      <guid isPermaLink="false">https://archive.org/download/netherdrome/08%20Netherdrome%20-%20Is%20The%20Theater%20Really%20Death%3F%20Part%202.mp3</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>25:38</itunes:duration>
+      <itunes:episode>8</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Nothing In The Rules</title>
+      <description>The manager of a down and out baseball team gets the answer to his prayers — a perfect pitcher, but he has to pay a price.</description>
+      <enclosure url="https://archive.org/download/netherdrome/09%20Netherdrome%20-%20Nothing%20In%20The%20Rules.mp3" length="37236003" type="audio/mpeg" />
+      <guid isPermaLink="false">https://archive.org/download/netherdrome/09%20Netherdrome%20-%20Nothing%20In%20The%20Rules.mp3</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>25:11</itunes:duration>
+      <itunes:episode>9</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>The Tunnel</title>
+      <description>Deep within a newly dug tunnel, something is moving in the shadows. A worker has disappeared, and an unexplained cave-in has sealed the entrance. What is the secret of the tunnel?</description>
+      <enclosure url="https://archive.org/download/netherdrome/10%20Netherdrome%20-%20The%20Tunnel.mp3" length="45953053" type="audio/mpeg" />
+      <guid isPermaLink="false">https://archive.org/download/netherdrome/10%20Netherdrome%20-%20The%20Tunnel.mp3</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>27:35</itunes:duration>
+      <itunes:episode>10</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>That They May Face The Winds</title>
+      <description>An elderly Native American learns that he is fatally ill and returns to his boyhood home on the surface to live his final days. His grandson goes along and discovers something about his heritage—and himself.</description>
+      <enclosure url="https://archive.org/download/netherdrome/11%20Netherdrome%20-%20That%20They%20May%20Face%20The%20Winds.mp3" length="47685475" type="audio/mpeg" />
+      <guid isPermaLink="false">https://archive.org/download/netherdrome/11%20Netherdrome%20-%20That%20They%20May%20Face%20The%20Winds.mp3</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>29:30</itunes:duration>
+      <itunes:episode>11</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>The Ultimate Vote — Part 1</title>
+      <description>A man is caught between the plots of a radical group from the surface and the schemes of an ambitious politician.</description>
+      <enclosure url="https://archive.org/download/netherdrome/12%20Netherdrome%20-%20The%20Ultimate%20Vote%20-%20Part%201.mp3" length="41894698" type="audio/mpeg" />
+      <guid isPermaLink="false">https://archive.org/download/netherdrome/12%20Netherdrome%20-%20The%20Ultimate%20Vote%20-%20Part%201.mp3</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>27:22</itunes:duration>
+      <itunes:episode>12</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>The Ultimate Vote — Part 2</title>
+      <description>Two men try to stop an assassination and the schemes of an unscrupulous politician.</description>
+      <enclosure url="https://archive.org/download/netherdrome/13%20Netherdrome%20-%20The%20Ultimate%20Vote%20-%20Part%202.mp3" length="41494975" type="audio/mpeg" />
+      <guid isPermaLink="false">https://archive.org/download/netherdrome/13%20Netherdrome%20-%20The%20Ultimate%20Vote%20-%20Part%202.mp3</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>27:44</itunes:duration>
+      <itunes:episode>13</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
 
   </channel>
 </rss>
