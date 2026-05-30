@@ -276,26 +276,121 @@ h2 {
   font-size: 0.95rem;
 }
 
-.episode-card {
-  padding: 1.25rem 0;
-  border-bottom: 1px solid var(--border);
+.episode-grid {
+  display: grid;
+  grid-template-columns: 2.5rem minmax(0, 1fr) minmax(0, 2fr) 3.5rem 2rem;
+  column-gap: 1.25rem;
 }
 
-.episode-card:first-of-type {
-  border-top: 1px solid var(--border);
+.episode-row {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: subgrid;
+  align-items: center;
+  padding: 1.1rem 0;
+  border-top: 1px solid var(--border-light);
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.15s;
 }
 
-.episode-card h3 {
-  font-family: var(--font-heading);
-  font-size: 1rem;
-  font-weight: 600;
-  margin-bottom: 0.4rem;
+.episode-row:last-child {
+  border-bottom: 1px solid var(--border-light);
 }
 
-.episode-card p {
+.episode-row:hover {
+  opacity: 0.65;
+  text-decoration: none;
+}
+
+.ep-num {
+  font-family: var(--font);
+  font-size: 1.4rem;
+  font-weight: 700;
   color: var(--text);
-  font-size: 1.1rem;
-  line-height: 1.55;
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+
+.ep-title {
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text);
+}
+
+.ep-desc {
+  font-family: var(--font);
+  font-style: italic;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: var(--text);
+}
+
+.ep-duration {
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  text-align: right;
+}
+
+.ep-play {
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  border: 1.5px solid color-mix(in srgb, var(--text) 35%, transparent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: border-color 0.15s;
+}
+
+.ep-play::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 4px 0 4px 6px;
+  border-color: transparent transparent transparent color-mix(in srgb, var(--text) 45%, transparent);
+  margin-left: 2px;
+}
+
+.episode-row.playing .ep-play {
+  border-color: var(--text);
+}
+
+.episode-row.playing .ep-play::after {
+  width: 2px;
+  height: 7px;
+  background: var(--text);
+  box-shadow: 4px 0 0 var(--text);
+  border-width: 0;
+  margin-left: 0;
+}
+
+@media (max-width: 600px) {
+  .episode-grid {
+    grid-template-columns: 2.5rem minmax(0, 1fr) 3.5rem 2rem;
+    column-gap: 0.75rem;
+  }
+
+  .episode-row {
+    grid-template-rows: auto auto;
+    row-gap: 0.3rem;
+    padding: 1rem 0;
+  }
+
+  .ep-num      { grid-column: 1; grid-row: 1; }
+  .ep-title    { grid-column: 2; grid-row: 1; }
+  .ep-duration { grid-column: 3; grid-row: 1; }
+  .ep-play     { grid-column: 4; grid-row: 1; }
+  .ep-desc     { grid-column: 2 / -1; grid-row: 2; }
 }
 
 /* Footer */
