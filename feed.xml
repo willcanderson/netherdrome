@@ -10,13 +10,21 @@
     <atom:link href="https://willcanderson.github.io/netherdrome/feed.xml" rel="self" type="application/rss+xml" />
     <description>Dispatches from the edge of technology, culture, and ideas.</description>
     <language>en-us</language>
-    <copyright>&#169; 2026 Netherdrome</copyright>
+    <copyright>&#169; 1989 Netherdrome</copyright>
     <lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate>
 
     <itunes:author>Netherdrome</itunes:author>
     <itunes:summary>Dispatches from the edge of technology, culture, and ideas.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
-    <itunes:category text="Technology" />
+    <itunes:category text="Fiction">
+      <itunes:category text="Science Fiction" />
+    </itunes:category>
+    <itunes:category text="Fiction">
+      <itunes:category text="Drama" />
+    </itunes:category>
+    <itunes:category text="Arts">
+      <itunes:category text="Performing Arts" />
+    </itunes:category>
     <itunes:owner>
       <itunes:name>Netherdrome</itunes:name>
     </itunes:owner>
