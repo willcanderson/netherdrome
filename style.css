@@ -80,6 +80,7 @@ a:hover {
 header {
   padding: 4rem 0 2rem;
   text-align: center;
+  overflow: hidden;
 }
 
 .podcast-art-wrap {
